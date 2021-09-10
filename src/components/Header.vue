@@ -27,7 +27,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/">
+                <router-link to="/introduce/menu">
                   메뉴안내
                 </router-link>
               </li>
