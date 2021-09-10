@@ -17,9 +17,28 @@ a{
 	color: inherit;
 }
 
+//class
 .Roboto{
   font-family: 
     'Roboto',
     'Noto Sans KR',
     sans-serif;
+}
+.blind { // 안보이게 
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+}
+.wrap{
+	position: relative;
+	max-width: $inner;
+	margin: auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+} 
+.container{
+padding: 160px 100px 50px;
 }

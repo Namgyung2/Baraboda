@@ -37,19 +37,3 @@ $mobile: 375px;
   text-overflow:ellipsis;
 }
 
-//class
-.wrap{
-  position: relative;
-  max-width: $inner;
-  margin: auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-} 
-.blind { // 안보이게 
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-}

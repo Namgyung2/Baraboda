@@ -11,7 +11,11 @@
         그리고 더 가까이에서 바라보기 위해 바라보다 스페셜티를 온라인에서 선보입니다. <br>
         처음 시작했던 설레는 그 마음을 담아 오늘도 당신을 만나러 갑니다. <br>
       </p>
-      <a class="view_more">view more <span><i class="fas fa-angle-right" /></span></a>
+      <router-link 
+        to="/introduce"
+        class="view_more">
+        view more <span><i class="fas fa-angle-right" /></span>
+      </router-link>
     </div>
     <div class="link">
       <a

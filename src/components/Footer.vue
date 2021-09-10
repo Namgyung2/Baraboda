@@ -9,7 +9,7 @@
             </router-link>
           </li>
           <li>
-            <router-link to="/">
+            <router-link to="/introduce">
               회사소개 
             </router-link>
           </li>

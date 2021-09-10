@@ -16,13 +16,13 @@
         <ul class="nav_L">
           <li class="top_li">
             <router-link 
-              to="/" 
+              to="/introduce" 
               class="top_li_a">
               바라보다
             </router-link>
             <ul class="buttom_ul">
               <li>
-                <router-link to="/">
+                <router-link to="/introduce">
                   소개
                 </router-link>
               </li>
