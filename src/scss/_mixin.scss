@@ -22,7 +22,6 @@ $mobile: 375px;
   }
 }
 
-
 @mixin line1{
   display: inline-block;
   text-overflow: ellipsis;
@@ -45,8 +44,7 @@ $mobile: 375px;
   margin: auto;
   padding: 0 20px;
   box-sizing: border-box;
-}
-
+} 
 .blind { // 안보이게 
   position: absolute;
   width: 1px;

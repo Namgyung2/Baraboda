@@ -1,13 +1,19 @@
 <template>
+  <Header />
   <RouterView />
 </template>
 
 <script>
-export default {
+import Header from 'components/Header'
 
+export default {
+  components:{
+    Header
+  }
 }
 </script>
 
 <style lang="scss">
+@import "scss/main.scss";
 
 </style>
