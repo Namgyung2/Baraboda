@@ -1,0 +1,57 @@
+// 반응형
+$inner: 1280px;
+$pc: 1024px;
+$tablet: 768px;
+$mobile: 375px;
+
+@mixin pc {
+  @media all and (max-width: $pc) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media all and (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media all and (max-width: $mobile) {
+    @content;
+  }
+}
+
+
+@mixin line1{
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@mixin line_n($n){
+  display:-webkit-box; 
+  word-wrap:break-word; 
+  -webkit-line-clamp: $n; 
+  -webkit-box-orient:vertical; 
+  overflow:hidden; 
+  text-overflow:ellipsis;
+}
+
+//class
+.wrap{
+  position: relative;
+  max-width: $inner;
+  margin: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.blind { // 안보이게 
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}

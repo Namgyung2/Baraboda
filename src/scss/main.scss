@@ -1,0 +1,24 @@
+@import "_reset","_mixin";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+
+// Basic setting
+body{
+	font-family: 
+		'Noto Serif KR', 
+		serif, 
+		'Roboto',
+		'Noto Sans KR',
+		sans-serif;
+}
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.Roboto{
+  font-family: 
+    'Roboto',
+    'Noto Sans KR',
+    sans-serif;
+}
