@@ -78,13 +78,13 @@
           </li>
           <li class="top_li">
             <router-link 
-              to="/" 
+              to="/Magazine" 
               class="top_li_a">
               마주보다
             </router-link>
             <ul class="buttom_ul">
               <li>
-                <router-link to="/">
+                <router-link to="/Magazine">
                   커피 매거진
                 </router-link>
               </li>
