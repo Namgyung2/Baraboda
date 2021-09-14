@@ -49,28 +49,28 @@
           </li>
           <li class="top_li">
             <router-link 
-              to="/" 
+              to="/shopping/specialTea" 
               class="top_li_a">
               쇼핑하다
             </router-link>
             <ul class="buttom_ul">
               <li>
-                <router-link to="/">
+                <router-link to="/shopping/specialTea">
                   스페셜티
                 </router-link>
               </li>
               <li>
-                <router-link to="/">
+                <router-link to="/shopping/coffeePack">
                   커피팩/선물세트
                 </router-link>
               </li>
               <li>
-                <router-link to="/">
+                <router-link to="/shopping/paraphernalia">
                   커피용품
                 </router-link>
               </li>
               <li>
-                <router-link to="/">
+                <router-link to="/shopping/goods">
                   바라보다 굿즈
                 </router-link>
               </li>
@@ -171,7 +171,8 @@
 export default {
   data(){
     return{
-      scrollTop: false
+      scrollTop: false,
+      shoppingPage: ''
     }
   },
   created () {
