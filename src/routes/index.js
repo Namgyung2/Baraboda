@@ -5,6 +5,7 @@ import Menu from './Introduce/Menu'
 import Shopping from './Shopping'
 import Magazine from './Magazine'
 import Questions from './Questions'
+import Review from './Review'
 
 export default createRouter({
   history: createWebHashHistory(),
@@ -20,5 +21,6 @@ export default createRouter({
 
     { path: '/magazine', component: Magazine},
     { path: '/questions', component: Questions},
+    { path: '/review', component: Review},
   ]
 })

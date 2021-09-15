@@ -94,7 +94,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/">
+                <router-link to="/review">
                   구매후기
                 </router-link>
               </li>
