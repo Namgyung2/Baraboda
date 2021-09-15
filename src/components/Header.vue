@@ -89,7 +89,7 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/">
+                <router-link to="/questions">
                   질문과 답변
                 </router-link>
               </li>
